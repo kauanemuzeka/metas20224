@@ -10,8 +10,9 @@ for(let i=0; i <botoes.length; i++){
        }
        botoes[i].classList.add("ativo");
        textos[i].classList.add("ativo");
-       
+
     }
 }   
-const temObjetivo1 = new Date("2024-12-21");
-contadores[0].textContext = "contagem Regressiva";
+const tempoObjetivo1 = new Date("2024-12-21T00:00:00");
+let tempoAtual = new date()
+contadores[0].textContext = tempoObjetivo1;
